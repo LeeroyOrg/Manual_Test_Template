@@ -14,6 +14,9 @@ jobs:
       - name: Echo second string
         run: echo "Awesomeness!!!"
 
+      - name: Echo third string
+        run: echo "I'm way cool!!!"
+
       - name: Multiline script
         run: |
           node -v
